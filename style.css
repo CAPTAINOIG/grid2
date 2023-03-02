@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    padding: 0px;
+    height: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: ;
+    row-gap: 10px;
+    /* position: absolute; */
+    padding-left: 50px;
+
+}
+
+
+
+.grid-item {
+    border: 1px solid grey;
+    height: 250px;
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    gap: 100px;
+    
+}
+.main {
+    background-color: aqua;
+    position: absolute;
+    width: 100%;
+    column-gap: 10px;
+    gap: 100px;
+
+
+}
